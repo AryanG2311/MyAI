@@ -61,6 +61,13 @@ async function sendMessage() {
   }
 }
 
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    document.getElementById("send-button").click();
+  }
+});
+
+
 function toggleMenu() {
   const navLinks = document.querySelector('.nav-links');
   navLinks.classList.toggle('active');
