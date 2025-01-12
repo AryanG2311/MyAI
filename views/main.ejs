@@ -1,0 +1,19 @@
+<% layout("/layouts/boilerplate.ejs") %>
+
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+MyAI    </div>
+    <div class="chat-area" id="chatArea">
+      <div class="message bot-message">Hello! How can I assist you today?</div>
+      <div class="message user-message">...</div>
+    </div>
+    <div class="chat-footer">
+      <input type="text" class="chat-input" placeholder="Type a message..." id="chatInput">
+      <button class="send-button" onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+
+</body>
+
