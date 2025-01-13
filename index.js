@@ -24,7 +24,6 @@ app.get('/', (req, res) => {
   res.send('Local host working');
 });
 
-// app.use("/",openairoute);
 
 
 // Endpoint to get AI response
